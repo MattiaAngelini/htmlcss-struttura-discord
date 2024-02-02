@@ -16,15 +16,17 @@ header {
         justify-content: center;
         align-items: center;
         padding: 20px;
-    }
+}
 
 /*-------------------
     GRID LAYOUT
 -------------------*/
 .container {
-    max-width: 1180px;
-    margin: 0 auto;
-    background-color: yellow;
+            max-width: 1180px;
+            margin: 0 auto;
+            
+}
+header > div {background-color: yellow;
 }
 
 .row  {
@@ -37,36 +39,62 @@ header {
        border: 2px dashed black;
 }
 
-
 /*-------------------
     HEADER
 -------------------*/
 
-.login {display: flex;
-         justify-content: end;}
+.login {
+        display: flex;
+        justify-content: end;
+}
 
-.link {display: flex;
-      justify-content: center;}
+.link {
+      display: flex;
+      justify-content: center;
+}
 
       
-/*-------------------
+/*------------------- 
     UTILITIES
 -------------------*/
 
-.height_sec {
-    height: 500px;
-   }
+.sections_layout {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center; 
+                  height: 500px; 
+                  }
 
 /*-------------------
    FIRST SECTION
 -------------------*/
-.first_sec {
-            display: flex;
-            background-color: blue;
-            justify-content: center;
-            align-items: center;        
-        }
 
-.pink_square {width: 40%;
-              height: 70%;
-              background-color: pink;}
+.purple_square { 
+                width: 40%;
+                height: 70%;
+                background-color: pink;
+               }
+               
+.blue_wrap{
+           background-color: blue;
+          }
+
+/*-------------------
+   SECOND SECTION
+-------------------*/
+
+
+.blue_square {
+              width: 70%;
+              background-color: lightblue;
+}
+  
+.pink_square {
+              width: 30%; 
+              background-color: pink;
+}
+
+.second_sec >* {
+                height: 70%;
+}
+
