@@ -30,6 +30,13 @@ main { display: flex;
             margin: 0 auto;          
 }
 
+.layout_sect { display:flex;
+               align-items: center;
+               justify-content: center;
+               height: 500px;
+               padding: 25px 0;      
+}
+
 .blue_wrap{
            background-color: blue;         
 }
@@ -37,6 +44,11 @@ main { display: flex;
 .gray_wrap{
            background-color: gray;
 }
+
+.black_wrap{
+    background-color: black;
+}
+
 
 /*-------------------
     HEADER
@@ -69,32 +81,18 @@ header > div {
    FIRST SECTION
 -------------------*/
 
-.section_intro {
-                display: flex;
-                justify-content: center;
-                align-items: center; 
-                height: 500px;        
-}
-
 .purple_square { 
                 width: 40%;
-                height: 400px;
+                height: 100%;
                 background-color: purple;
- }
+}
                
-
 /*-------------------
    MULTIPLE SECTION
 -------------------*/
 
-.layout_sect { display:flex;
-               align-items: center;
-               justify-content: center;
-               height: 500px;
-               padding: 25px 0;      
-}
-
-.blue_square {height: 100%;
+.blue_square {
+              height: 100%;
               width: 70%;
               background-color: lightblue;             
 }
@@ -108,15 +106,28 @@ header > div {
 /*-------------------
 FIFTH SECTION (BIG)
 -------------------*/
+#big_wrap { height:700px ;  
+}
 
 .green_square {
                height: 100%;
                width: 100%;
-               background-color: green;                                         
+               background-color: green; 
+                                                      
 }
 
-.big_sect {flex-basis: 700px;
-           justify-content: center;
-           align-items: center;
-           padding: 25px 0; 
+
+/*-------------------
+SIXTH SECTION 
+-------------------*/
+
+.coral_square{
+              background-color: coral;
+              width: calc(100%/3);
+              height: 100%;
 }
+.aquamarine_square{
+                   background-color: aquamarine;
+                   width: calc(100%/6);
+                   height: 100%;
+ }
