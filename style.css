@@ -37,6 +37,7 @@ header {
        border: 2px dashed black;
 }
 
+
 /*-------------------
     HEADER
 -------------------*/
@@ -47,6 +48,25 @@ header {
 .link {display: flex;
       justify-content: center;}
 
+      
+/*-------------------
+    UTILITIES
+-------------------*/
 
+.height_sec {
+    height: 500px;
+   }
 
+/*-------------------
+   FIRST SECTION
+-------------------*/
+.first_sec {
+            display: flex;
+            background-color: blue;
+            justify-content: center;
+            align-items: center;        
+        }
 
+.pink_square {width: 40%;
+              height: 70%;
+              background-color: pink;}
