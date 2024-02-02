@@ -84,7 +84,7 @@ header > div {
                
 
 /*-------------------
-   SECOND SECTION
+   MULTIPLE SECTION
 -------------------*/
 
 .layout_sect { display:flex;
@@ -105,4 +105,18 @@ header > div {
               background-color: pink;           
 }
 
+/*-------------------
+FIFTH SECTION (BIG)
+-------------------*/
 
+.green_square {
+               height: 100%;
+               width: 100%;
+               background-color: green;                                         
+}
+
+.big_sect {flex-basis: 700px;
+           justify-content: center;
+           align-items: center;
+           padding: 25px 0; 
+}
