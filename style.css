@@ -21,13 +21,7 @@ header {
         height: 50px ;
 }
 
-main { 
-       display: flex;
-       flex-direction: column;        
-}
-
-footer {display: flex;
-        color: white;
+footer {
         padding: 20px 0 0 0;
         border-top: 2px solid white;
 }
@@ -38,11 +32,11 @@ footer {display: flex;
 
 .container {
             max-width: 1180px;
-            margin: 0 auto;  
-                   
+            margin: 0 auto;                
 }
 
-.layout_sect { display:flex;
+.layout_sect {
+               display:flex;
                align-items: center;
                justify-content: center;
                height: 500px;
@@ -54,7 +48,7 @@ footer {display: flex;
 }
 
 /*-------------------
-      WRAPS
+        WRAPS
 -------------------*/
 
 .blue_wrap{
@@ -73,6 +67,9 @@ footer {display: flex;
                   background-color: aquamarine;
 }
 
+#big_wrap {
+           height: 700px;
+}
 /*-------------------
        HEADER
 -------------------*/
@@ -80,16 +77,16 @@ footer {display: flex;
 .nav  {
        display: flex;
        width: 100%;
-       height: 50px;
-       
+       height: 50px;     
 }
 
-.login, .link, .logo {
-                      display: flex;
-                      border: 2px dashed black;
-                      height: 100%;
-                      line-height: 50px;   
-                      padding: 0 6px 0 6px;           
+.nav > * {
+          display: flex;
+          border: 2px dashed black;
+          height: 100%;
+          line-height: 50px;   
+          padding: 0 6px 0 6px; 
+          background-color: yellow;          
 }
 
 .logo  {
@@ -106,11 +103,6 @@ footer {display: flex;
        flex:1;
 }
 
-
-header > div {
-              background-color: yellow;
-}
-
 /*-------------------
     FIRST SECTION
 -------------------*/  
@@ -121,10 +113,6 @@ header > div {
                 background-color: purple;
 }
                
-/*-------------------
-   MULTIPLE SECTION
--------------------*/
-
 .blue_square {
               height: 100%;
               width: 70%;
@@ -137,19 +125,11 @@ header > div {
               background-color: pink;           
 }
 
-/*-------------------
-FIFTH SECTION (BIG)
--------------------*/
- 
 .green_square {
                height: 100%;
                width: 100%;
                background-color: green;                                                    
 }
-
-/*-------------------
-   SIXTH SECTION 
--------------------*/
 
 .coral_square{
               background-color: coral;
@@ -174,7 +154,7 @@ footer > div {
               align-items: center;      
 }
        
-.login_foot, .logo_foot {
+.btn_foot {
                          display: flex;
                          height: 30px;
                          line-height: 30px;   
