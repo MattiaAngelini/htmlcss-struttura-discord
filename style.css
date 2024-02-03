@@ -26,8 +26,14 @@ footer {
         border-top: 2px solid white;
 }
 
+
+[class*="square"] {
+                    border: 2px dashed black;
+}
+
+
 /*-------------------
-      UTILITIES
+    GRID LAYOUT
 -------------------*/
 
 .container {
@@ -41,10 +47,6 @@ footer {
                justify-content: center;
                height: 500px;
                padding: 25px 0;      
-}
-
-[class*="square"] {
-                   border: 2px dashed black;
 }
 
 /*-------------------
@@ -103,8 +105,8 @@ footer {
        flex:1;
 }
 
-/*-------------------
-    FIRST SECTION
+/*-----------------
+   SQUARE/SECTIONS
 -------------------*/  
 
 .purple_square { 
@@ -137,7 +139,7 @@ footer {
               height: 100%;
 }
 
-.l_green_square{
+.li_green_square{
                 background-color: lightgreen;
                 width: calc(100%/6);
                 height: 100%;
