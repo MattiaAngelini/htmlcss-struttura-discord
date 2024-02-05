@@ -21,7 +21,7 @@ header {
         height: 50px ;
 }
 
-footer {
+footer {      
         padding: 20px 0 0 0;
         border-top: 2px solid white;
 }
@@ -42,9 +42,7 @@ footer {
 }
 
 .layout_sect {
-               display:flex;
-               align-items: center;
-               justify-content: center;
+               display:flex;             
                height: 500px;
                padding: 25px 0;      
 }
@@ -95,14 +93,19 @@ footer {
         flex:1; 
 }
 
-.link {
+.login {
+       justify-content: end;
+       flex:1;
+}
+
+.container_link {
        justify-content: center;
        flex: 2;
 }
 
-.login {
-       justify-content: end;
-       flex:1;
+.link * { 
+   text-decoration: none;
+   margin: 0 5px;
 }
 
 /*-----------------
@@ -113,6 +116,7 @@ footer {
                 width: 40%;
                 height: 100%;
                 background-color: purple;
+                margin: auto;
 }
                
 .blue_square {
@@ -130,7 +134,7 @@ footer {
 .green_square {
                height: 100%;
                width: 100%;
-               background-color: green;                                                    
+               background-color: green;                                                                                      
 }
 
 .coral_square{
@@ -140,11 +144,11 @@ footer {
 }
 
 .li_green_square{
-                background-color: lightgreen;
-                width: calc(100%/6);
-                height: 100%;
-                border: 2px dashed white;
-}
+                 background-color: lightgreen;
+                 width: calc(100%/6);
+                 height: 100%;
+                 border: 2px dashed white;
+} 
 
 /*-------------------
        FOOTER
@@ -157,11 +161,11 @@ footer > div {
 }
        
 .btn_foot {
-                         display: flex;
-                         height: 30px;
-                         line-height: 30px;   
-                         border: 2px dashed black; 
-                         color: black; 
-                         background-color: coral;   
+           display: flex;
+           height: 30px;
+           line-height: 30px;   
+           border: 2px dashed black; 
+           color: black;                 
+           background-color: coral;   
 }
 
